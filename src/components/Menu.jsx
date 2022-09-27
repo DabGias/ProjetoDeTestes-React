@@ -3,17 +3,11 @@ import styled from "styled-components"
 
 const StyleMenu = styled.nav `
     font-family: monospace;
-    padding-top: 20px;
+    padding: 10px;
     background-color: #3d3d3d;
 
-    h1 {
-        text-align: center;
-        font-size: 40px;
-        color: #00b400;
-    }
-
     ul {
-        margin-top: 20px;
+        padding: 10px;
         list-style: none;
         text-align: center;
         display: flexbox;
@@ -41,12 +35,10 @@ const StyleMenu = styled.nav `
 function Menu() {
     return(
         <StyleMenu>
-            <h1>Projeto de Testes</h1>
-
             <ul>
-                <li><Link to={"/"} className="linkMenu">Home</Link></li>
-                <li><Link to={"/cores"} className="linkMenu">Cores</Link></li>
-                <li><Link to={"/sobre"} className="linkMenu">Sobre</Link></li>
+                <li><Link to={"/"} className="linkMenu">🏠 Home</Link></li>
+                <li><Link to={"/cores"} className="linkMenu">🎨 Cores</Link></li>
+                <li><Link to={"/sobre"} className="linkMenu">📖 Sobre</Link></li>
             </ul>
         </StyleMenu>
     )
