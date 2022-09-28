@@ -92,9 +92,6 @@ function Cores() {
                         <button className="yellow" value={"yellow"}></button>
                         <button className="turquoise" value={"turquoise"}></button>
                     </div>
-                    <div className="options">
-                        
-                    </div>
                 </div>
             </StyleCores>
         </StyleMain>
