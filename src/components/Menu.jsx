@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 const StyleMenu = styled.nav `
-    font-family: monospace;
     padding: 10px;
     background-color: #3d3d3d;
 

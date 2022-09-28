@@ -1,20 +1,11 @@
 import styled from "styled-components"
 
 const StyleInfo = styled.div `
-    font-family: monospace;
     background-color: #3d3d3d;
     margin: 20px auto;
     padding: 20px;
     width: 70%;
     border-radius: 20px;
-
-    h1 {
-        font-size: 25px;
-        text-align: center;
-        width: 60%;
-        margin: 20px auto;
-        color: #00b400;
-    }
 
     h3 {
         font-size: 20px;
