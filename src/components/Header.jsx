@@ -2,7 +2,6 @@ import styled from "styled-components"
 import Menu from "./Menu"
 
 const StyleHeader = styled.header `
-    font-family: monospace;
     padding-top: 20px;
     background-color: #3d3d3d;
 
