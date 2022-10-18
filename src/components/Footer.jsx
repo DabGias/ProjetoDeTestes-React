@@ -1,10 +1,9 @@
 import styled from "styled-components"
 
 const StyleFooter = styled.footer `
-    background-color: #303030;
     font-family: monospace;
     padding: 20px;
-    background-color: #3d3d3d;
+    background-color: #00122d;
     text-align: center;
 
     p {

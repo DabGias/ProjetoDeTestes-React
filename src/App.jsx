@@ -5,6 +5,7 @@ import Cores from "./components/Cores"
 import Sobre from "./components/Sobre"
 import Footer from "./components/Footer"
 import { useState } from "react"
+import Galeria from "./components/Galeria"
 
 function App() {
     const [theme, setTheme] = useState("black")
@@ -20,6 +21,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home/>}/>
                         <Route path="/cores" element={<Cores changeTheme={changeTheme}/>}/>
+                        <Route path="/galeria" element={<Galeria/>}/>
                         <Route path="/sobre" element={<Sobre/>}/>
                     </Routes>
                 <Footer/>

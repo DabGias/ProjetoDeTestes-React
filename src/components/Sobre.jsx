@@ -1,14 +1,45 @@
 import styled from "styled-components"
 
 const StyleTeste = styled.div `
-    height: 1000px;
+    background-color: #00122d;
+    height: 100vh;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        text-align: center;
+        width: 50%;
+        color: white;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    p a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        transition: 150ms;
+    }
+
+    p a:hover {
+        transform: scale(1.15);
+        transition: 150ms;
+    }
 `
 
 function Sobre() {
     return(
         <>
             <StyleTeste>
-                <h1>Div de Teste</h1>
+                <p>Autor: Gabriel Furlaneti Dias</p>
+                <p><a href="https://github.com/DabGias">🐙 GitHub;</a></p>
+                <p><a href="https://www.linkedin.com/in/gabrielfurlaneti">👔 LinkedIn;</a></p>
             </StyleTeste>
         </>
     )

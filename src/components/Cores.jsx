@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const StyleMain = styled.main `
-    background-color: #3d3d3d;
+    background-color: #00122d;
     margin: 20px auto;
     padding: 20px;
     width: 70%;
@@ -14,7 +14,7 @@ const StyleMain = styled.main `
 
 const StyleCores = styled.div `
     font-family: monospace;
-    background-color: #3d3d3d;
+    background-color: #00122d;
     margin: 100px auto;
     padding: 20px;
     width: 50%;
@@ -41,7 +41,7 @@ const StyleCores = styled.div `
 
     .black {
         cursor: pointer;
-        background-color: #303030;
+        background-color: #001220;
     }
 
     .blue {

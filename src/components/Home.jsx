@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const StyleInfo = styled.div `
-    background-color: #3d3d3d;
+    background-color: #00122d;
     margin: 20px auto;
     padding: 20px;
     width: 70%;

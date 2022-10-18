@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle `
     }
 
     #black {
-        background-color: #303030;
+        background-color: #001220;
     }
 
     #blue {

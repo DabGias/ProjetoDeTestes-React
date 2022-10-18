@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const StyleMenu = styled.nav `
     padding: 10px;
-    background-color: #3d3d3d;
+    background-color: #00122d;
 
     ul {
         padding: 10px;
@@ -35,8 +35,8 @@ function Menu() {
     return(
         <StyleMenu>
             <ul>
-                <li><Link to={"/"} className="linkMenu">🏠 Home</Link></li>
                 <li><Link to={"/cores"} className="linkMenu">🎨 Cores</Link></li>
+                <li><Link to={"/galeria"} className="linkMenu">📷 Galeria</Link></li>
                 <li><Link to={"/sobre"} className="linkMenu">📖 Sobre</Link></li>
             </ul>
         </StyleMenu>
