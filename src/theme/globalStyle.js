@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle `
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: monospace;
+        font-family: 'Montserrat', sans-serif;
     }
 
     #black {
@@ -45,7 +45,7 @@ const GlobalStyle = createGlobalStyle `
         text-align: center;
         width: 60%;
         margin: 20px auto;
-        color: #00b400;
+        color: #C62368;
     }
 `;
 

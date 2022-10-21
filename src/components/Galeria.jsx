@@ -7,20 +7,10 @@ const DivStyle = styled.div `
     border-radius: 20px;
     padding: 20px;
 
-    .header {
-        width: 70%;
-        margin: auto;
-        background-image: linear-gradient(#FA7268, #00122d, #00122d);
-        border-radius: 20px;
-    }
-
     h1 {
-        font-family: 'PT Sans', sans-serif;
         font-size: 60px;
-        color: white;
-        text-align: left;
+        text-align: center;
         width: 50%;
-        margin: 20px;
     }
 
     .fotos {
@@ -45,9 +35,7 @@ function Galeria() {
     return(
         <>
             <DivStyle>
-                <div className="header">
-                    <h1>Galeria de Fotos</h1>
-                </div>
+                <h1>Galeria de Fotos</h1>
 
                 <div className="fotos">
                     <img src="https://source.unsplash.com/random?a=1" alt="Imagem" />

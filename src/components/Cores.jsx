@@ -13,7 +13,6 @@ const StyleMain = styled.main `
 `
 
 const StyleCores = styled.div `
-    font-family: monospace;
     background-color: #00122d;
     margin: 100px auto;
     padding: 20px;

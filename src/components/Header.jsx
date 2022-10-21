@@ -13,7 +13,7 @@ const StyleHeader = styled.header `
 
     h1 a {
         display: block;
-        color: #00b400;
+        color: #C62368;
         text-decoration: none;
         transition: 150ms;
     }

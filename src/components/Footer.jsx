@@ -1,15 +1,19 @@
 import styled from "styled-components"
 
 const StyleFooter = styled.footer `
-    font-family: monospace;
     padding: 20px;
     background-color: #00122d;
     text-align: center;
 
     p {
-        color: white;
+        color: #C62368;
         font-size: 20px;
         margin: 10px;
+    }
+
+    p p {
+        display: inline;
+        color: white;
     }
 
     p a {
@@ -29,7 +33,7 @@ function Footer() {
     return(
         <>
             <StyleFooter>
-                <p>🗺 Localização: Brasil, SP, São Paulo;</p>
+                <p>🗺 Localização: <p>Brasil, SP, São Paulo;</p></p>
                 <p><a href="https://github.com/DabGias">🐙 GitHub;</a></p>
                 <p><a href="https://www.linkedin.com/in/gabrielfurlaneti">👔 LinkedIn;</a></p>
             </StyleFooter>
